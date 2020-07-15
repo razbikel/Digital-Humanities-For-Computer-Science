@@ -22,10 +22,10 @@ Brief explanation of the files:
     This list is exported to a JSON file, which I used to create CSV files for text analysis.
     
   * CSVs directory - The CSV files I used to analyze the text:
-    CSV file for each character with the word distribution in each season
-    CSV file containing the list of characters, gender, and the total number of words spoken by each character
-    CSV file with the names of the places mentioned in the series, their frequency of occurrence and longitude and latitude corresponding to each location in order to produce a     map
-    A CSV file used for semantic analysis that contains for each character its religion and the corresponding polarity value for it
-    A CSV file containing the results of the experiment for performing topic modeling for each season, with the 3 main topics and the 5 most valuable words.
+    * CSV file for each character with the word distribution in each season
+    * CSV file containing the list of characters, gender, and the total number of words spoken by each character
+    * CSV file with the names of the places in the series, their frequency of occurrence and longitude and latitude corresponding to each location in order to produce a map.
+    * CSV file used for semantic analysis that contains for each character its religion and the corresponding polarity value for it
+    * CSV file containing the results of the experiment for performing topic modeling for each season, with the 3 main topics and the 5 most valuable words.
     
   * transcripts directory - Episodes of the series downloaded from the web, using the Python library 'BeautifulSoup', with each episode saved in a text file.
